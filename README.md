@@ -7,7 +7,7 @@ I specialize in building asynchronous data pipelines and secure, LLM-driven appl
 
 ## 🚀 Commercial Project
 
-### 🏎️ Autosnajper.pl - ML Price Prediction Engine
+### 🏎️ [Autosnajper.pl](https://autosnajper.pl) - ML Price Prediction Engine
 *Note: This is a commercial, closed-source project. Source code is private.*
 * **Role:** End-to-end Machine Learning Developer
 * **Stack:** Python, Scikit-Learn, Web Scraping, FastAPI
