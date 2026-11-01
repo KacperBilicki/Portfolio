@@ -15,6 +15,15 @@ I specialize in building asynchronous data pipelines and secure, LLM-driven appl
 
 ---
 
+## 🛒 E-commerce Data Automation
+
+### [E-commerce Feed Converter](https://github.com/KacperBilicki/Ecommerce-feed-converter)
+**Turns messy wholesaler product files into ready-to-import store catalogs, plus a data-quality report for the client.**
+* **Stack:** Python, Pandas, OpenPyXL, Pytest
+* **Highlights:** Auto-detects inconsistent supplier column names and validates every EAN/GTIN (check digit, duplicates, leading zeros lost by Excel, scientific-notation corruption). Normalizes prices and VAT with `Decimal` precision, sanitizes HTML descriptions and exports native WooCommerce and Shoper import files. Generates an Excel report listing every rejected row with its reason, turning a 413-row messy feed into 350 import-ready products in under 2 seconds.
+
+---
+
 ## 🧠 Open-Source AI Architecture Portfolio
 
 ### 1. [Audio Analyzer Pipeline](https://github.com/KacperBilicki/Audio-Analyzer)
@@ -44,7 +53,8 @@ I specialize in building asynchronous data pipelines and secure, LLM-driven appl
 * **Languages:** Python 3.10+, SQL
 * **AI & Machine Learning:** LangChain, LangGraph, TensorFlow, HuggingFace, ChromaDB, OpenAI API
 * **Backend & Cloud:** FastAPI, Celery, Redis, AWS (S3), Docker, Pydantic
-* **Data Engineering:** Pandas, Numpy, Scikit-Learn, BeautifulSoup, Selenium
+* **Data Engineering:** Pandas, Numpy, Scikit-Learn, BeautifulSoup, Selenium, OpenPyXL
+* **E-commerce:** WooCommerce, Shoper, BaseLinker, product feeds (CSV / XLSX / XML)
 * **DevOps & Testing:** Git, GitHub Actions (CI/CD), Pytest
 
 ---
